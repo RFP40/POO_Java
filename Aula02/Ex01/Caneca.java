@@ -6,7 +6,7 @@ public class Caneca {
     Boolean cheia;
 
     void status() {
-        System.out.println("A caneta é da cor " + cor);
+        System.out.println("A caneca é da cor: " + cor);
         System.out.println("Ela tem alça? " + alca);
         System.out.println("Ela está cheia? " + cheia);
     }

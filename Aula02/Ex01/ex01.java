@@ -1,5 +1,7 @@
 package Aula02.Ex01;
 
+import Aula02.Caneta;
+
 public class ex01 {
 
     public static void main(String[] args) {
@@ -14,6 +16,13 @@ public class ex01 {
             e1.qtd_itens = 10;
             e1.ziper = true;
             e1.status();
+        
+        Caneca c2 = new Caneca();
+            c2.cor = "Verde";
+            c2.alca = true;
+            c2.cheia = true;
+            c2.status();
+        
     }
 
 }
