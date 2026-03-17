@@ -1,7 +1,5 @@
 package Aula02.Ex01;
 
-import Aula02.Caneta;
-
 public class ex01 {
 
     public static void main(String[] args) {
