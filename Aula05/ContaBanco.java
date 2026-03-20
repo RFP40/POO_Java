@@ -19,8 +19,10 @@ public class ContaBanco {
 
         if ("CC".equals(t)) {
             setSaldo(50);
+            System.out.println("Conta CC, criada com sucesso!");
         } else if ("CP".equals(t)) {
-            setSaldo(150);
+            setSaldo(120);
+            System.out.println("Conta CP, criada com sucesso");
         }
     }
 
@@ -74,6 +76,13 @@ public class ContaBanco {
             System.out.println("Conta fechada.");
         }
     }
+    public void status() {
+        System.out.println("numConta: " + numConta);
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Saldo: " + saldo);
+        System.out.println("Status: " + status);
+        System.out.println("Dono: " + dono);
+    }
 
     //SET and GET 
 
@@ -107,5 +116,13 @@ public class ContaBanco {
 
     public void setStatus(Boolean st) {
         this.status = st;
+    }
+
+    public String getDono() {
+        return this.dono;
+    }
+
+    public void setDono (String d){
+        this.dono = d;
     }
 }
