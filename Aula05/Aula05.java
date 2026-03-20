@@ -1,5 +1,4 @@
 package Aula05;
-
 public class Aula05 {
     public static void main(String[] args) {
         ContaBanco cb = new ContaBanco();
@@ -11,5 +10,4 @@ public class Aula05 {
         cb.setDono("Rafael");
         cb.status();
     }
-    
 }

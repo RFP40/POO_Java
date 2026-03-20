@@ -1,17 +1,19 @@
 package Aula05;
 
 public class ContaBanco {
-
+//definição dos atributos, privacidade e tipo
     public int numConta;
     protected String tipo;
     private String dono;
     private float saldo;
     private Boolean status;
 
-    public ContaBanco() {
+    public ContaBanco() { //método contrutor
         this.status = false;
         this.saldo = 0.0f;
     }
+
+//métodos
 
     public void abrirConta(String t) {
         setTipo(t);
