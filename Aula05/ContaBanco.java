@@ -79,11 +79,11 @@ public class ContaBanco {
         }
     }
     public void status() {
+        System.out.println("Dono: " + dono);
         System.out.println("numConta: " + numConta);
         System.out.println("Tipo: " + tipo);
         System.out.println("Saldo: " + saldo);
         System.out.println("Status: " + status);
-        System.out.println("Dono: " + dono);
     }
 
     //SET and GET 
